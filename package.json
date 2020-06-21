@@ -1,0 +1,65 @@
+{
+  "name": "graphql-relay",
+  "version": "1.0.0",
+  "description": "A React Application using Relay, Webpack, Babel.JS and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "relay": "relay-compiler --src ./src --schema ./schema/schema.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manglide/reactjs-relay-webpack-babeljs-mongodb.git"
+  },
+  "keywords": [
+    "Webpack",
+    "Babel",
+    "JS",
+    "React",
+    "JS",
+    "Relay",
+    "JS",
+    "and",
+    "Webpack"
+  ],
+  "author": "Adeyemi Salau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manglide/reactjs-relay-webpack-babeljs-mongodb/issues"
+  },
+  "homepage": "https://github.com/manglide/reactjs-relay-webpack-babeljs-mongodb#readme",
+  "dependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-react": "^7.0.0-beta.40",
+    "@babel/runtime": "^7.9.6",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-react-transform": "^3.0.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "mongodb": "^3.5.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-relay": "^9.1.0",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-stage-0": "^7.8.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-relay": "^9.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-relay-plugin": "^0.7.3",
+    "babel-relay-plugin-loader": "^0.11.0",
+    "relay-compiler": "^9.1.0",
+    "relay-config": "^9.1.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "passPerPreset": true,
+  "presets": [
+    "@babel/react",
+    [
+      "@babel/preset-env", {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "relay",
+    "@babel/proposal-class-properties",
+    "syntax-dynamic-import",
+  ]
+}
